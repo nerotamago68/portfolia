@@ -1,0 +1,107 @@
+html {
+    background: rgb(123,44,191);
+    background: -moz-radial-gradient(circle, rgba(123,44,191,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(123,44,191,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(123,44,191,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b2cbf",endColorstr="#000000",GradientType=1);
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    color: #7b2cbf;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: transparent;
+}
+
+#home-title {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 20px;
+    border: solid 1px #7b2cbf;
+    box-shadow: 0px 10px 15px 10px rgba(0,0,0,.2);
+}
+
+#container {
+    width: 60%;
+    height: 700px;
+    border: solid 1px #7b2cbf;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0px 10px 15px 15px rgba(0,0,0,.2);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 20px;
+}
+
+
+.inner-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 50%;
+    border: solid 0 px #7b2cbf;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 20px;
+}
+
+.inner-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    place-items: center;
+}
+#skills-title {
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    font-size: large;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 10px;
+    place-content: center center;
+    place-items: center;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* .contact-icon:active {
+    background-color: aliceblue;
+} */
+
+.info-box {
+    border: solid 1px #7b2cbf;
+    box-sizing: border-box;
+    width: 100%;
+}

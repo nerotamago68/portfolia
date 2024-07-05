@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maricar Mabahoooo</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <h1 id="home-title">WELCOME</h1>
+    <div id="container">
+        <div class="inner-container">
+            <h2>About Me</h2>
+            <p id="about-me">
+                {{about.description}}
+            </p>
+        </div>
+
+        <div class="inner-container">
+            <h2 id="skills-title">Where to contact me?</h2>
+            <div id="contact-container">
+                <a href="#">
+                    <img src="{% static 'images/telegram-svgrepo-com.png' %}" alt="" class="contact-icon">
+                </a>
+                <a href="#">
+                    <img src="{% static 'images/messenger-fill-svgrepo-com.png' %}" alt="" class="contact-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
