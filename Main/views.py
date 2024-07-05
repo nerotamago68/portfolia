@@ -3,10 +3,10 @@ from .models import AboutMe
 
 
 def home(request):
-    about = AboutMe.objects.get(name='Ryan')
+    
 
     context = {
-        'about': about
+        'about': 'sdsdsd'
     }
 
     return render(request, 'main/home.html', context=context)
