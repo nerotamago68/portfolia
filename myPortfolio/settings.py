@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-e6nvsk2n$my%zrtta5stuvp2k7i_i0&w8oced6k3#*s9=j0i9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '192.168.0.102']
+ALLOWED_HOSTS = ['localhost', 'porfolia.onrender.com']
 
 
 # Application definition
