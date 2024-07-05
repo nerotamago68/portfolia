@@ -5,10 +5,8 @@ from .models import AboutMe
 
 
 def home(request):
-    about_me = AboutMe.objects.get(name='Ryan')
 
-    context = {
-        'about': about_me,
-    }
+
+    context = {}
 
     return render(request, 'main/home.html', context=context)
