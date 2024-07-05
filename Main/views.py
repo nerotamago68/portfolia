@@ -3,6 +3,7 @@ from .models import AboutMe
 
 
 def home(request):
+    AboutMe.objects.get(name='Ryan')
 
     context = {}
 
